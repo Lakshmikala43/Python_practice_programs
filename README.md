@@ -33,12 +33,12 @@ The Basics section introduces fundamental Python concepts such as printing outpu
 
 # Programs Included
 ## 1.Hello World
-'''python
+```python
 print("hello,world!)
-'''
+```
 
 ## 2.Simple calculator
-'''python
+```python
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
@@ -49,11 +49,11 @@ if num2!=0:
     print("Division:",num1/num2)
 else:
     print("Division cannot performed")
-'''    
+```   
 
 ## 3.Swap two numbers
 ## i) Swap without using temporary variable
-'''python
+```python
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 a=a+b
@@ -62,10 +62,10 @@ a=a-b
 print("After swapping:")
 print("a =", a)
 print("b =", b)
-'''
+```
 
 ## ii)Swap using temporary variable
-'''python
+```python
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 temp=a
@@ -74,40 +74,40 @@ b=temp
 print("After swapping:")
 print("a =", a)
 print("b =", b)
-'''
+```
 
 ## 4.Find Square and Cube of a number
-'''python
+```python
 num = int(input("Enter a number: "))
 
 print("Square:", num ** 2)
 print("Cube:", num ** 3)
-'''
+```
 
 ## 5.Convert Celcius to Fahrenheit
-
+```python
 celsius = float(input("Enter temperature in Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
 
 print("Fahrenheit:", fahrenheit)
-'''
+```
 
 ## 6.Find Area of Circle
-'''python
+```python
 radius = float(input("Enter radius: "))
 area = 3.14 * radius * radius
 
 print("Area:", area)
-'''
+```
 
 ## 7.Find Simple intrest
-'''python
+```python
 p=int(input("enter p value:"))
 t=int(input("enter t value:"))
 r=int(input("enter r value:"))
 SI=p*t*r
 print("simple intrest is:",SI)
-'''
+```
 
 # Conditional Statements
 
@@ -120,17 +120,17 @@ The Conditions section helps in understanding decision-making using:
 # Programs Included
 
 ## 1. Even or Odd Number  
-'''python
+```python
 num = int(input("Enter a number:"))
 
 if num % 2 == 0:
     print("number is Even")
 else:
     print("number is Odd")
-'''
+```
     
 ## 2. Positive or Negative Number  
-'''python
+```python
 num = int(input("Enter a number: "))
 
 if num > 0:
@@ -139,10 +139,10 @@ elif num < 0:
     print("Negative")
 else:
     print("Zero")
-'''
+```
     
 ## 3. Largest of 3 Numbers  
-'''python
+```python
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 num3 = int(input("Enter third number: "))
@@ -153,20 +153,20 @@ elif num2>num1 and num2>num3:
     print("num3 is large")
 else:
     print("num3 is large")
-'''
+```
 
 ## 4. Leap Year Checker
-'''python
+```python
 year = int(input("Enter year: "))
 
 if (year % 4 == 0):
     print("Leap Year")
 else:
     print("Not a Leap Year")
-'''
+```
     
 ## 5. Grade Calculator 
-'''python
+```python
 marks = int(input("Enter marks: "))
 if marks >= 90:
     print("Grade A")
@@ -176,17 +176,17 @@ elif marks >= 50:
     print("Grade C")
 else:
     print("Fail")
-'''
+```
     
 ## 6. Voting Eligibility Checker  
-'''python
+```python
 age = int(input("Enter your age: "))
 
 if age >= 18:
     print("Eligible to vote")
 else:
     print("Not eligible")
-'''
+```
 
 # How to Run the Programs
 
