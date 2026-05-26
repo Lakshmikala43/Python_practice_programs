@@ -32,12 +32,12 @@ Functions
 The Basics section introduces fundamental Python concepts such as printing output, taking user input, performing calculations, and using formulas.
 
 # Programs Included
-### 1.Hello World
+## 1.Hello World
 
 print("hello,world!)
 
 
-### 2.Simple calculator
+## 2.Simple calculator
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
@@ -51,8 +51,8 @@ else:
     print("Division cannot performed")
     
 
-### 3.Swap two numbers
-### i) Swap without using temporary variable
+## 3.Swap two numbers
+## i) Swap without using temporary variable
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -76,7 +76,7 @@ print("a =", a)
 print("b =", b)
 
 
-### 4.Find Square and Cube of a number
+## 4.Find Square and Cube of a number
 
 num = int(input("Enter a number: "))
 
@@ -92,14 +92,14 @@ fahrenheit = (celsius * 9/5) + 32
 print("Fahrenheit:", fahrenheit)
 
 
-### 6.Find Area of Circle
+## 6.Find Area of Circle
 
 radius = float(input("Enter radius: "))
 area = 3.14 * radius * radius
 
 print("Area:", area)
 
-### 7.Find Simple intrest
+## 7.Find Simple intrest
 
 p=int(input("enter p value:"))
 t=int(input("enter t value:"))
@@ -118,7 +118,7 @@ The Conditions section helps in understanding decision-making using:
 
 # Programs Included
 
-### 1. Even or Odd Number  
+## 1. Even or Odd Number  
 
 num = int(input("Enter a number:"))
 
@@ -128,7 +128,7 @@ else:
     print("number is Odd")
 
     
-### 2. Positive or Negative Number  
+## 2. Positive or Negative Number  
 
 num = int(input("Enter a number: "))
 
@@ -140,7 +140,7 @@ else:
     print("Zero")
 
     
-### 3. Largest of 3 Numbers  
+## 3. Largest of 3 Numbers  
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
@@ -154,7 +154,7 @@ else:
     print("num3 is large")
 
 
-### 4. Leap Year Checker
+## 4. Leap Year Checker
 
 year = int(input("Enter year: "))
 
@@ -178,7 +178,7 @@ else:
     print("Fail")
 
     
-### 6. Voting Eligibility Checker  
+## 6. Voting Eligibility Checker  
 
 age = int(input("Enter your age: "))
 
