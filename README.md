@@ -64,7 +64,7 @@ print("a =", a)
 print("b =", b)
 
 
-### ii)Swap using temporary variable
+## ii)Swap using temporary variable
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -84,7 +84,7 @@ print("Square:", num ** 2)
 print("Cube:", num ** 3)
 
 
-### 5.Convert Celcius to Fahrenheit
+## 5.Convert Celcius to Fahrenheit
 
 celsius = float(input("Enter temperature in Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
@@ -164,7 +164,7 @@ else:
     print("Not a Leap Year")
 
     
-# 5. Grade Calculator 
+## 5. Grade Calculator 
 
 marks = int(input("Enter marks: "))
 
