@@ -12,7 +12,7 @@ These programs help in understanding:
 - Problem-solving skills
 
 # Topics Covered
-
+```python
 Basics
 ↓
 Conditions
@@ -26,7 +26,7 @@ Strings
 Lists
 ↓
 Functions
-
+```
 # Basics
 
 The Basics section introduces fundamental Python concepts such as printing output, taking user input, performing calculations, and using formulas.
